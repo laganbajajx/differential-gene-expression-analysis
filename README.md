@@ -10,18 +10,18 @@ This project combines statistical analysis, machine learning, and data visualiza
 ## Project Objective
 The goal of this project is to analyze a high-dimensional gene expression dataset and answer key biological questions such as:
 
-Which genes are significantly upregulated or downregulated?
-Can gene expression profiles distinguish disease states?
-What hidden patterns exist among samples?
-Can machine learning predict phenotype from expression data?
+ Which genes are significantly upregulated or downregulated?
+ Can gene expression profiles distinguish disease states?
+ What hidden patterns exist among samples?
+ Can machine learning predict phenotype from expression data?
 
 ## Dataset Description
 The dataset contains expression measurements of thousands of genes across multiple individuals grouped into biological conditions such as:
 
-Healthy Controls
-Diseased Patients
-Recovered Patients
-Chronic Cases
+ - Healthy Controls
+ - Diseased Patients
+ - Recovered Patients
+ - Chronic Cases
 
 Each row represents a sample, and each column represents gene expression values.
 
@@ -29,46 +29,46 @@ Each row represents a sample, and each column represents gene expression values.
 The project follows a complete bioinformatics pipeline:
 
 1. Exploratory Data Analysis (EDA)
-Missing value detection
-Distribution analysis
-Class balance check
-Boxplots & histograms
-Correlation heatmaps
+ - Missing value detection
+ - Distribution analysis
+ - Class balance check
+ - Boxplots & histograms
+ - Correlation heatmaps
 2. Data Preprocessing
-Log transformation
-Normalization / Standardization
-Feature scaling
-Outlier handling
+ - Log transformation
+ - Normalization / Standardization
+ - Feature scaling
+ - Outlier handling
 3. Dimensionality Reduction
-PCA (Principal Component Analysis)
-t-SNE visualization
-Variance-based feature selection
+ - PCA (Principal Component Analysis)
+ - t-SNE visualization
+ - Variance-based feature selection
 4. Clustering Analysis
-K-Means Clustering
-Hierarchical Clustering
-Sample grouping visualization
+ - K-Means Clustering
+ - Hierarchical Clustering
+ - Sample grouping visualization
 5. Differential Expression Analysis
-Fold Change Calculation
-t-test / ANOVA
-Multiple testing correction
-Volcano Plot
-Heatmap of top genes
+ - Fold Change Calculation
+ - t-test / ANOVA
+ - Multiple testing correction
+ - Volcano Plot
+ - Heatmap of top genes
 6. Predictive Modeling
-Machine learning models used:
-Logistic Regression
-Random Forest
-Support Vector Machine (SVM)
-Linear Discriminant Analysis (LDA)
+ - Machine learning models used:
+ - Logistic Regression
+ - Random Forest
+ - Support Vector Machine (SVM)
+ - Linear Discriminant Analysis (LDA)
 7. Model Evaluation
-Accuracy Score
-Precision / Recall
-F1 Score
-ROC Curve
-Confusion Matrix
+ - Accuracy Score
+ - Precision / Recall
+ - F1 Score
+ - ROC Curve
+ - Confusion Matrix
 
 ## Technologies Used
  Programming Language:
- 1. Python
+1. Python
  Libraries
 1. NumPy
 2. Pandas
