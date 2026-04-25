@@ -67,16 +67,16 @@ ROC Curve
 Confusion Matrix
 
 ## Technologies Used
-Programming Language
-Python
-Libraries
-NumPy
-Pandas
-Scikit-learn
-SciPy
-Statsmodels
-Matplotlib
-Seaborn
+ Programming Language:
+ 1. Python
+ Libraries
+1. NumPy
+2. Pandas
+3. Scikit-learn
+4. SciPy
+5. Statsmodels
+6. Matplotlib
+7. Seaborn
 
 ## Key Outcomes
  1. Identified significantly differentially expressed genes
