@@ -79,18 +79,18 @@ Matplotlib
 Seaborn
 
 ## Key Outcomes
- Identified significantly differentially expressed genes
- Visualized biological separation between phenotypes
- Built phenotype prediction models
- Compared statistical and ML approaches
- Generated publication-style plots
+ 1. Identified significantly differentially expressed genes
+ 2. Visualized biological separation between phenotypes
+ 3. Built phenotype prediction models
+ 4. Compared statistical and ML approaches
+ 5. Generated publication-style plots
 
 ## Future Improvements
-RNA-Seq raw count normalization (DESeq2 / EdgeR)
-Pathway enrichment analysis
-Gene ontology mapping
-Deep learning classification models
-Web dashboard deployment
+1. RNA-Seq raw count normalization (DESeq2 / EdgeR)
+2. Pathway enrichment analysis
+3. Gene ontology mapping
+4. Deep learning classification models
+5. Web dashboard deployment
 
 
 
