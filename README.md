@@ -1,19 +1,97 @@
-# Antimicrobial Resistance Analysis
+Differential Gene Expression Analysis
 
 ## Overview
-This project investigates bacterial resistance patterns using antibiotic susceptibility testing (disc diffusion method).
+Differential Gene Expression Analysis is a key area of bioinformatics that focuses on identifying genes whose expression levels change significantly between different biological conditions. It is widely used in disease research, drug discovery, cancer genomics, and personalized medicine.
 
-## Objectives
-- Measure zones of inhibition
-- Compare antibiotic effectiveness
-- Analyze resistance trends
+Gene expression data contains measurements of how actively genes are transcribed under specific conditions. By comparing expression patterns between groups (such as healthy vs diseased individuals), we can uncover biomarkers, molecular pathways, and mechanisms underlying disease progression.
 
-## Tools Used
-- Mueller-Hinton Agar
-- Disc Diffusion Assay
-- Python
-- Pandas
-- Matplotlib
+This project combines statistical analysis, machine learning, and data visualization to study gene expression datasets and extract meaningful biological insights.
 
-## Future Scope
-Machine learning prediction of resistance profiles.
+## Project Objective
+The goal of this project is to analyze a high-dimensional gene expression dataset and answer key biological questions such as:
+
+Which genes are significantly upregulated or downregulated?
+Can gene expression profiles distinguish disease states?
+What hidden patterns exist among samples?
+Can machine learning predict phenotype from expression data?
+
+## Dataset Description
+The dataset contains expression measurements of thousands of genes across multiple individuals grouped into biological conditions such as:
+
+Healthy Controls
+Diseased Patients
+Recovered Patients
+Chronic Cases
+
+Each row represents a sample, and each column represents gene expression values.
+
+## Workflow
+The project follows a complete bioinformatics pipeline:
+
+1. Exploratory Data Analysis (EDA)
+Missing value detection
+Distribution analysis
+Class balance check
+Boxplots & histograms
+Correlation heatmaps
+2. Data Preprocessing
+Log transformation
+Normalization / Standardization
+Feature scaling
+Outlier handling
+3. Dimensionality Reduction
+PCA (Principal Component Analysis)
+t-SNE visualization
+Variance-based feature selection
+4. Clustering Analysis
+K-Means Clustering
+Hierarchical Clustering
+Sample grouping visualization
+5. Differential Expression Analysis
+Fold Change Calculation
+t-test / ANOVA
+Multiple testing correction
+Volcano Plot
+Heatmap of top genes
+6. Predictive Modeling
+Machine learning models used:
+Logistic Regression
+Random Forest
+Support Vector Machine (SVM)
+Linear Discriminant Analysis (LDA)
+7. Model Evaluation
+Accuracy Score
+Precision / Recall
+F1 Score
+ROC Curve
+Confusion Matrix
+
+## Technologies Used
+Programming Language
+Python
+Libraries
+NumPy
+Pandas
+Scikit-learn
+SciPy
+Statsmodels
+Matplotlib
+Seaborn
+
+## Key Outcomes
+ Identified significantly differentially expressed genes
+ Visualized biological separation between phenotypes
+ Built phenotype prediction models
+ Compared statistical and ML approaches
+ Generated publication-style plots
+
+## Future Improvements
+RNA-Seq raw count normalization (DESeq2 / EdgeR)
+Pathway enrichment analysis
+Gene ontology mapping
+Deep learning classification models
+Web dashboard deployment
+
+
+
+
