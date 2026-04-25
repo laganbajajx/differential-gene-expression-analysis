@@ -10,10 +10,10 @@ This project combines statistical analysis, machine learning, and data visualiza
 ## Project Objective
 The goal of this project is to analyze a high-dimensional gene expression dataset and answer key biological questions such as:
 
- Which genes are significantly upregulated or downregulated?
- Can gene expression profiles distinguish disease states?
- What hidden patterns exist among samples?
- Can machine learning predict phenotype from expression data?
+  - Which genes are significantly upregulated or downregulated?
+  - Can gene expression profiles distinguish disease states?
+  - What hidden patterns exist among samples?
+  - Can machine learning predict phenotype from expression data?
 
 ## Dataset Description
 The dataset contains expression measurements of thousands of genes across multiple individuals grouped into biological conditions such as:
@@ -69,7 +69,8 @@ The project follows a complete bioinformatics pipeline:
 ## Technologies Used
  Programming Language:
 1. Python
- Libraries
+   
+ Libraries: 
 1. NumPy
 2. Pandas
 3. Scikit-learn
